@@ -1,0 +1,24 @@
+{
+  "name": "knex_blog",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "NODE_ENV=test mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "ejs": "^2.3.4",
+    "express": "^4.14.0",
+    "knex": "^0.9.0",
+    "locus": "^1.2.0",
+    "method-override": "^2.3.5",
+    "mithril": "^0.2.5",
+    "morgan": "^1.6.1",
+    "pg": "^4.4.3"
+  }
+}

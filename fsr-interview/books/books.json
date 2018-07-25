@@ -1,0 +1,38 @@
+{
+  "books": [
+    {
+      "id": 1
+      "title": "Harry Potter and the Sorceror's Stone",
+      "author": 1
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "author": 1
+    },
+    {
+      "id": 3,
+      "title": "Lord of the Rings",
+      "author": 2
+    },
+    {
+      "id": 4,
+      "title": "Hitchhikers Guide to the Galaxy",
+      "author": 3
+    }
+  ]
+  "authors": [
+    {
+      "id": 1,
+      "name": "JK Rowling"
+    },
+    {
+      'id': 2,
+      'name': "JR Tolken"
+    },
+    {
+      "id": 3,
+      "name": "Douglas Adams"
+    }
+  ]
+}

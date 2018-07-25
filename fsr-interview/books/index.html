@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <script src="file://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+</head>
+<body>
+  <h1>Books!</h1>
+  <div>Here are my books:</div>
+  <script>
+    var books = $.get("books.json")
+    for (var i=0; i<books.books.length; i++) {
+      $("<div>")
+        .text(books.books[i].title)
+        .appendTo("body")
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "Learn a front-end framework",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Galvanize",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}

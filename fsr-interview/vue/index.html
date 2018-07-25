@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <title>My favorite colors</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.17/vue.min.js"></script>
+</head>
+<body>
+  <div id="colors">
+    <h1>My favorite colors:</h1>
+    <ul>
+      <li v-for="color in colors">{{color}}</li>
+    </ul>
+  </div>
+  <script>
+  var colors = new Vue({
+    el: '#colors',
+    colors: ["blue", "red", "green"]
+  })
+  </script>
+</body>
+</html>

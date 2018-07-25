@@ -1,0 +1,10 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "Setup the app's database schema.",
+  "author": "Galvanize",
+  "dependencies": {
+    "knex": "^0.10.0",
+    "pg": "^4.5.1"
+  }
+}

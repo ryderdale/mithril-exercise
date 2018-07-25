@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+  <script src="file://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+</head>
+<body>
+  <main ng-controller="BooksController as Books">
+    <h1>Books!</h1>
+    <p>Here are my books:</p>
+    <ul>
+      <li ng-repeat="book in Books.books">{{book.title}}</li>
+    </ul>
+  </main>
+  <script type="text/javascript">
+    angular
+      .module('app', [])
+      .controller('BooksController', BooksController);
+
+    function BooksController($http) {
+      var vm = this;
+      vm.books = $http.get("books.json");
+    }
+  </script>
+</body>
+</html>

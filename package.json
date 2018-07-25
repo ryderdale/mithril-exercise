@@ -1,0 +1,31 @@
+{
+  "name": "Instructor-Technical-Interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "editor.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npm run lint; npm run test; wait",
+    "test": "mocha",
+    "lint": "esw --color editor.js test/editor.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/Instructor-Technical-Interview.git"
+  },
+  "keywords": [],
+  "author": "w3cj <hello@cjr.co.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gSchool/Instructor-Technical-Interview/issues"
+  },
+  "homepage": "https://github.com/gSchool/Instructor-Technical-Interview#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.2.2",
+    "eslint-watch": "^2.1.14",
+    "mocha": "^3.0.0"
+  }
+}

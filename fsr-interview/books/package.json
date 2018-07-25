@@ -1,0 +1,12 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "API for books",
+  "scripts": {
+    "start": "./node_modules/.bin/http-server -o"
+  },
+  "author": "Galvanize",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
